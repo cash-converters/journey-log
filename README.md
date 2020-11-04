@@ -1,2 +1,2 @@
-# jouney-log
+# journey-log app
 App for loggin the journey
