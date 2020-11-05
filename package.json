@@ -1,0 +1,24 @@
+{
+  "name": "journey-log",
+  "version": "1.0.0",
+  "description": "App for loggin the journey",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cash-converters/journey-log.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cash-converters/journey-log/issues"
+  },
+  "homepage": "https://github.com/cash-converters/journey-log#readme",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}
