@@ -1,0 +1,20 @@
+{
+  "name": "",
+  "id": null,
+  "key": "REST-1",
+  "type": "REST",
+  "arguments": {},
+  "configurationArguments": {},
+  "metaData": {
+    "icon": "https://cash-converters-jouney.herokuapp.com/icon.png",
+    "category": "message",
+    "iconSmall": null,
+    "statsContactIcon": null,
+    "original_icon": "icon.png"
+  },
+  "editable": true,
+  "outcomes": [
+    { "next": "WAITBYDURATION-2", "metaData": { "invalid": false } }
+  ],
+  "errors": null
+}

@@ -1,0 +1,44 @@
+{
+  "name": "",
+  "id": "249c0b4e-875a-4524-9372-b0e4cb40e9df",
+  "key": "REST-1",
+  "type": "REST",
+  "arguments": {
+    "execute": {
+      "inArguments": [{ "contactKey": "{{Contact.Key}}" }],
+      "url": "https://marketing-cloud-cash.free.beeceptor.com"
+    }
+  },
+  "configurationArguments": {
+    "publish": { "url": "https://marketing-cloud-cash.free.beeceptor.com" }
+  },
+  "metaData": {
+    "icon": "https://cash-converters-jouney.herokuapp.com/icon.png",
+    "category": "message",
+    "iconSmall": null,
+    "statsContactIcon": null,
+    "original_icon": "icon.png"
+  },
+  "editable": true,
+  "outcomes": [
+    { "next": "WAITBYDURATION-6", "metaData": { "invalid": false } }
+  ],
+  "errors": [
+    {
+      "is": false,
+      "errorType": "UNCONFIGURED",
+      "refActivityId": "REST-1",
+      "itemType": "ACTIVITY",
+      "i18nActivityType": "Unknown Custom Activity",
+      "alertKey": "I18N_VALIDATION_UNCONFIGURED_ACTIVITY_SINGLE",
+      "messageKey": "I18N_VALIDATION_ITEM_UNCONFIGURED_ACTIVITY",
+      "activityName": "Log data",
+      "additionalInfo": {
+        "activityKey": "REST-1",
+        "activityId": "572e75b0-f944-48c2-bba0-4e23044db89e",
+        "activityType": "REST"
+      },
+      "errorDetail": "This activity must be configured before activation can be successful."
+    }
+  ]
+}

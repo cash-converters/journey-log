@@ -1,13 +1,12 @@
 {
   "name": "",
-  "id": null,
+  "id": "249c0b4e-875a-4524-9372-b0e4cb40e9df",
   "key": "REST-1",
   "type": "REST",
   "arguments": {
     "execute": {
       "inArguments": [
-        { "contactKey": "{{Contact.Key}}" },
-        { "FirstName": "{{Contact.Attribute.JourneyEntrySource.FirstName}}" }
+        { "contactKey": "hola" }
       ],
       "url": "https://marketing-cloud-cash.free.beeceptor.com"
     }
@@ -26,7 +25,7 @@
   },
   "editable": true,
   "outcomes": [
-    { "next": "WAITBYDURATION-1", "metaData": { "invalid": false } }
+    { "next": "WAITBYDURATION-1" }
   ],
   "errors": null
 }

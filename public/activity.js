@@ -4,7 +4,7 @@ connection.trigger('ready');
 
 connection.on('initActivity', function(data) {
     console.log(data);
-    document.getElementById('configuration').value = JSON.stringify(data);
+    document.getElementById('configuration').value = JSON.stringify(data, null, 2);
 })
 
 connection.on('clickedNext', function() {
