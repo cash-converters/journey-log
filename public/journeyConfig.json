@@ -1,12 +1,13 @@
 {
   "name": "",
-  "id": "249c0b4e-875a-4524-9372-b0e4cb40e9df",
+  "id": null,
   "key": "REST-1",
   "type": "REST",
   "arguments": {
     "execute": {
       "inArguments": [
-        { "contactKey": "hola" }
+        { "contactKey": "{{Contact.Key}}" },
+        { "codTienda": "{{Contact.Attribute.test_CC_VR_CC052.cod_tienda}}"}
       ],
       "url": "https://marketing-cloud-cash.free.beeceptor.com"
     }
@@ -21,11 +22,12 @@
     "category": "message",
     "iconSmall": null,
     "statsContactIcon": null,
-    "original_icon": "icon.png"
+    "original_icon": "icon.png",
+    "isConfigured": true
   },
   "editable": true,
   "outcomes": [
     { "next": "WAITBYDURATION-1" }
   ],
-  "errors": null
+  "errors": []
 }
